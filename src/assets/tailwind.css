@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+/* === Custom Design Tokens === */
+@theme {
+  /* === Primary Colors === */
+  --color-red-500: hsl(356 100% 66%);
+  --color-red-400: hsl(355 100% 74%);
+  --color-red-550: hsl(353 100% 62%);
+  --color-blue-900: hsl(208 49% 24%);
+
+  /* === Neutral Colors === */
+  --color-white: hsl(0 100% 100%);
+  --color-gray-600: hsl(207 13% 34%);
+  --color-gray-900: hsl(240 10% 16%);
+
+  /* === Gradient Colors === */
+  --color-orange-300: hsl(13 100% 72%);
+  --color-purple-950: hsl(237 17% 21%);
+  --color-purple-900: hsl(237 23% 31%);
+
+  /* === Fonts === */
+  --font-overpass: 'Overpass', sans-serif;
+  --font-ubuntu: 'Ubuntu', sans-serif;
+
+  /* === Font Size === */
+  --font-size-base: 16px;
+
+  /* === Breakpoints === */
+  --screen-mobile: 375px;
+  --screen-desktop: 1440px;
+}
+
+/* === Base Styles (optional defaults) === */
+@layer base {
+  :root {
+    font-family: var(--font-overpass);
+    font-size: var(--font-size-base);
+  }
+}
+
+@layer utilities {
+  .bg-intro-gradient {
+    background-image: linear-gradient(var(--color-orange-300), var(--color-red-550));
+  }
+
+  .bg-body-gradient {
+    background-image: linear-gradient(var(--color-purple-950), var(--color-purple-900));
+  }
+  html {
+    font-size: var(--font-size-base);
+    font-family: var(--font-overpass);
+  }
+
+  body {
+    @apply text-gray-900 bg-white;
+    min-height: 100vh;
+  }
+}

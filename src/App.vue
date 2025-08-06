@@ -1,11 +1,26 @@
-<script setup></script>
+<script setup>
+import introNav from './components/introNav.vue'
+import { ref } from 'vue'
+const navItems = ref([
+  {
+    navName: 'Product',
+    items: [' Overview', 'Pricing', 'Marketplace', 'Features', 'Integrations'],
+  },
+  {
+    navName: 'Company',
+    items: [' About', '  Team', '  Blog', 'Careers'],
+  },
+  {
+    navName: 'Connect',
+    items: [' Contact', 'Newsletter', 'LinkedIn'],
+  },
+])
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="flex flex-col h-screen max-w-screen">
+    <introNav :navItems="navItems" />
+  </div>
 </template>
 
 <style scoped></style>
