@@ -13,14 +13,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="max-w-screen mt-20 mx-auto">
+  <div class="max-w-screen mb-20 sm:mb-0 mt-20 mx-auto">
     <div class="font-bold text-3xl text-center">Designed for the future</div>
 
     <div
       class="flex flex-col-reverse text-center sm:text-left mx-auto justify-around sm:flex-row max-w-screen"
     >
       <div class="sm:w-2/3 space-y-8 mt-16 sm:ml-42 justify-center">
-        <div class="text-xl font-semibold block max-sm:max-w-4/5">
+        <div class="text-xl font-semibold mx-auto max-sm:max-w-4/5 items-center">
           <span class="inline-flex max-sm:max-w-2/3">Introducing an extensible editor</span>
           <p class="max-w-lg text-base font-normal mt-2">
             Blogr features an exceedingly intuitive interface which lets you focus on one thing:
@@ -29,6 +29,7 @@ onMounted(() => {
             and themes provide easy ways to add functionality or change the looks of a blog.
           </p>
         </div>
+
         <div class="text-xl max-sm:max-w-4/5 mx-auto font-semibold block">
           <span class="inline-flex max-sm:max-w-2/3">Robust content management</span>
           <p class="max-w-lg text-base font-normal mt-2">
