@@ -28,14 +28,15 @@ const opennav = (index) => {
 </script>
 <template>
   <section
-    class="flex text-white flex-col h-3/4 sm:h2/3 rounded-bl-[64px] bg-gradient-to-r from-orange-300 to-red-550 relative sm:overflow-hidden"
+    class="flex text-white flex-col h-96 pb-[430px] sm:h2/3 rounded-bl-[64px] bg-gradient-to-r from-orange-300 to-red-550 relative sm:overflow-hidden"
   >
     <div
       class="absolute top-0 w-screen h-full bg-[url('./src/assets/images/bg-pattern-intro-mobile.svg')] sm:bg-[url('./src/assets/images/bg-pattern-intro-desktop.svg')] bg-no-repeat bg-[26%_center] z-0"
     ></div>
 
     <nav class="flex relative mx-4 sm:mx-18 my-8 justify-between">
-      <h1 class="text-white text-3xl font-bold inline pr-12">Bloger</h1>
+      <img class="pr-12 h-full" src="../assets/images/logo.svg" alt="" />
+      <!-- <h1 class="text-white text-3xl font-bold inline pr-12">Bloger</h1> -->
       <div
         :class="{
           'hidden  sm:flex   ': !showMenue,
@@ -114,7 +115,7 @@ const opennav = (index) => {
       <span class="text-4xl font-bold">publishing platform</span>
       <p class="mt-4 mx-auto max-sm:max-w-xs">Grow your audience and build your online brand</p>
 
-      <div class="mt-14 flex-row space-x-3 justify-between">
+      <div class="mt-10 flex-row space-x-3 justify-between">
         <a
           href="#"
           class="font-semibold bg-white px-5 py-3 rounded-full text-red-600 hover:text-white hover:bg-red-300"
