@@ -31,11 +31,11 @@ const opennav = (index) => {
     class="flex text-white flex-col h-96 pb-[430px] sm:h2/3 rounded-bl-[64px] bg-gradient-to-r from-orange-300 to-red-550 relative sm:overflow-hidden"
   >
     <div
-      class="absolute top-0 w-screen h-full bg-[url('./src/assets/images/bg-pattern-intro-mobile.svg')] sm:bg-[url('./src/assets/images/bg-pattern-intro-desktop.svg')] bg-no-repeat bg-[26%_center] z-0"
+      class="absolute animate-main-header top-0 w-screen h-full bg-[url('./src/assets/images/bg-pattern-intro-mobile.svg')] sm:bg-[url('./src/assets/images/bg-pattern-intro-desktop.svg')] bg-no-repeat bg-[26%_center] z-0"
     ></div>
 
-    <nav class="flex relative mx-4 sm:mx-18 my-8 justify-between">
-      <img class="pr-12 h-full" src="../assets/images/logo.svg" alt="" />
+    <nav class="animate-fade-in-scale flex relative mx-4 sm:mx-18 my-8 justify-between">
+      <img class="animate-fade-in-scale pr-12 h-full" src="../assets/images/logo.svg" alt="" />
       <!-- <h1 class="text-white text-3xl font-bold inline pr-12">Bloger</h1> -->
       <div
         :class="{
@@ -49,7 +49,7 @@ const opennav = (index) => {
           <div class="sm:space-x-4">
             <div
               @click="opennav(index)"
-              class="cursor-pointer pr-3 hover:underline underline-offset-1 font-semibold"
+              class="animate-fade-in-scale cursor-pointer pr-3 hover:underline underline-offset-1 font-semibold"
             >
               {{ item.navName }}
 
@@ -110,18 +110,23 @@ const opennav = (index) => {
         />
       </div>
     </nav>
-    <div class="z-1 mt-16 justify-between items-center text-center">
+    <div class="z-1 mt-16 justify-between items-center text-center animate-main-header">
       <span class="text-4xl font-bold block sm:inline-flex">A modern&nbsp;</span>
       <span class="text-4xl font-bold">publishing platform</span>
-      <p class="mt-4 mx-auto max-sm:max-w-xs">Grow your audience and build your online brand</p>
+      <p class="mt-4 animate-main-header mx-auto max-sm:max-w-xs">
+        Grow your audience and build your online brand
+      </p>
 
       <div class="mt-10 flex-row space-x-3 justify-between">
         <a
           href="#"
-          class="font-semibold bg-white px-5 py-3 rounded-full text-red-600 hover:text-white hover:bg-red-300"
+          class="font-semibold bg-white px-5 py-3 rounded-full text-red-600 animate-main-header hover:text-white hover:bg-red-300"
           >Start for Free</a
         >
-        <a href="#" class="font-semibold px-5 py-3 rounded-full text-white border border-white">
+        <a
+          href="#"
+          class="font-semibold px-5 py-3 rounded-full animate-main-header text-white border border-white"
+        >
           Learn More
         </a>
       </div>

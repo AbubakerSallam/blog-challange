@@ -14,13 +14,15 @@ onMounted(() => {
 
 <template>
   <div class="max-w-screen mb-20 sm:mb-0 mt-20 mx-auto">
-    <div class="font-bold text-3xl text-center">Designed for the future</div>
+    <div class="font-bold text-3xl text-center animate-main-header">Designed for the future</div>
 
     <div
       class="flex flex-col-reverse text-center sm:text-left mx-auto justify-around sm:flex-row max-w-screen"
     >
       <div class="sm:w-2/3 space-y-8 mt-16 sm:ml-42 justify-center">
-        <div class="text-xl font-semibold mx-auto max-sm:max-w-4/5 items-center">
+        <div
+          class="text-xl font-semibold mx-auto max-sm:max-w-4/5 items-center animate-main-header"
+        >
           <span class="inline-flex max-sm:max-w-2/3">Introducing an extensible editor</span>
           <p class="max-w-lg text-base font-normal mt-2">
             Blogr features an exceedingly intuitive interface which lets you focus on one thing:
@@ -30,7 +32,7 @@ onMounted(() => {
           </p>
         </div>
 
-        <div class="text-xl max-sm:max-w-4/5 mx-auto font-semibold block">
+        <div class="text-xl max-sm:max-w-4/5 mx-auto font-semibold block animate-main-secondry">
           <span class="inline-flex max-sm:max-w-2/3">Robust content management</span>
           <p class="max-w-lg text-base font-normal mt-2">
             Flexible content management enables users to easily move through posts. Increase the
@@ -40,7 +42,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="sm:-translate-y-14 w-full overflow-hidden">
+      <div class="sm:-translate-y-14 w-full overflow-hidden animate-main-secondry">
         <img
           class="backdrop-shadow-3xl w-full sm:translate-x-1/4"
           :src="

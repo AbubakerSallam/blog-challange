@@ -27,7 +27,7 @@ const navItems = ref([
     <HeaderSection />
     <middleSection />
     <LaptopSection />
-    <div class="attribution">
+    <div class="attribution pt-10 animate-main-secondry -mb-10">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">AbubakerSallam</a>.

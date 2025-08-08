@@ -1,24 +1,26 @@
 <template>
   <section class="h-[400px] my-16 sm:my-64 w-screen">
     <div
-      class="w-full h-full bg-body-gradient rounded-bl-[96px] relative rounded-tr-[96px] space-y-4 overflow-hidden justify-between flex flex-col sm:flex-row"
+      class="w-full h-full bg-body-gradient animate-fade-in-scale rounded-bl-[96px] relative rounded-tr-[96px] space-y-4 overflow-hidden justify-between flex flex-col sm:flex-row"
     >
       <!-- TODO: try to add group that may add the overflow hidden to specific div -->
       <div class="w-1/2">
         <img
-          class="absolute max-sm:-top-4/12 sm:-bottom-1/3 sm:-left-1/6"
+          class="absolute max-sm:-top-4/12 animate-main-header sm:-bottom-1/3 sm:-left-1/6"
           src="../assets/images/bg-pattern-circles.svg"
           alt=""
         />
         <div class="relative w-full h-full">
           <img
-            class="z-2 absolute overflow-visible left-1/2 scale-150 sm:scale-100 sm:left-20 -top-20"
+            class="z-2 animate-main-secondry absolute overflow-visible left-1/2 scale-150 sm:scale-100 sm:left-20 -top-20"
             src="../assets/images/illustration-phones.svg "
             alt=""
           />
         </div>
       </div>
-      <div class="z-3 w-1/2 mx-auto my-auto sm:my-0 content-center mt-32 sm:mt-0">
+      <div
+        class="z-3 w-1/2 mx-auto my-auto sm:my-0 content-center mt-36 sm:mt-0 animate-main-secondry"
+      >
         <h1 class="text-white text-2xl sm:text-3xl font-semibold mb-4">
           State of the Art Infrastructure
         </h1>

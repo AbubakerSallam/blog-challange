@@ -2,6 +2,40 @@
 
 /* === Custom Design Tokens === */
 @theme {
+  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  --animate-main-header: fade-main 0.5s ease-in-out;
+  @keyframes fade-main {
+    0% {
+      opacity: 0;
+      transform: translateX(-130px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  --animate-main-secondry: fade-second 0.9s ease-in-out;
+  @keyframes fade-second {
+    0% {
+      opacity: 0;
+      transform: translateX(-130px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
   /* === Primary Colors === */
   --color-red-500: hsl(356 100% 66%);
   --color-red-400: hsl(355 100% 74%);

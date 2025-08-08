@@ -1,9 +1,9 @@
 <template>
-  <div class="mt-16 sm:h-[250px] bg-gray-900 rounded-tr-[64px]">
+  <div class="mt-16 animate-fade-in-scale sm:h-[250px] bg-gray-900 rounded-tr-[64px]">
     <div
-      class="flex flex-col text-center items-center sm:items-start my-auto justify-evenly content-center sm:flex-row sm:pt-10 pt-14 sm:pb-0 pb-14"
+      class="animate-main-header flex flex-col text-center items-center sm:items-start my-auto justify-evenly content-center sm:flex-row sm:pt-10 pt-14 sm:pb-0 pb-14"
     >
-      <img class="mb-8" src="../assets/images/logo.svg" alt="" />
+      <img class="animate-main-secondry mb-8" src="../assets/images/logo.svg" alt="" />
       <ul class="text-white mb-8">
         <h1 class="font-bold mb-3">Product</h1>
         <li class="text-sm">Overview</li>

@@ -15,7 +15,7 @@ onMounted(() => {
   <section class="flex flex-col sm:flex-row w-full">
     <div class="w-1/2 flex items-center mx-auto">
       <img
-        class="backdrop-shadow-3xl w-full sm:-translate-x-42 sm:-translate-y-1/4"
+        class="animate-fade-in-scale backdrop-shadow-3xl w-full sm:-translate-x-42 sm:-translate-y-1/4"
         :src="
           isSmallScreen
             ? '/src/assets/images/illustration-laptop-desktop.svg'
@@ -24,10 +24,12 @@ onMounted(() => {
       />
     </div>
     <div
-      class="z-3 w-1/2 flex flex-col gap-8 sm:gap-19 mx-auto sm:my-0 content-center mt-4 sm:mt-0"
+      class="z-3 w-1/2 flex flex-col gap-8 sm:gap-19 mx-auto sm:my-0 content-center mt-4 sm:mt-0 animate-main-header max-sm:text-center"
     >
       <div>
-        <h1 class="text-xl sm:text-3xl font-semibold mb-4">Free, open, simple</h1>
+        <h1 class="animate-main-secondry text-xl sm:text-3xl font-semibold mb-4">
+          Free, open, simple
+        </h1>
         <p class="text-sm sm:text-base text-center sm:text-left max-w-lg -mx-10 sm:m-0">
           Blogr is a free and open source application backed by a large community of helpful
           developers. It supports features such as code syntax highlighting, RSS feeds, social media
@@ -36,7 +38,9 @@ onMounted(() => {
         </p>
       </div>
       <div>
-        <h1 class="text-xl sm:text-3xl font-semibold mb-4">Powerful tooling</h1>
+        <h1 class="text-xl sm:text-3xl font-semibold mb-4 animate-main-secondry">
+          Powerful tooling
+        </h1>
         <p class="text-sm sm:text-base text-center sm:text-left max-w-lg -mx-10 sm:m-0">
           Batteries included. We built a simple and straightforward CLI tool that makes
           customization and deployment a breeze, but capable of producing even the most complicated
