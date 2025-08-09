@@ -43,7 +43,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [GitHub](https://github.com/AbubakerSallam/blog-challange)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live]([https://your-live-site-url.com](https://blog-challange.netlify.app/))
 
 ## My process
 
