@@ -1,4 +1,4 @@
-# Frontend Mentor - Blogr landing page solution
+# Frontend Mentor - Blogr landing page solution [![Netlify Status](https://api.netlify.com/api/v1/badges/232c124e-78a3-436c-848e-4b792115649c/deploy-status)](https://app.netlify.com/projects/blog-challange/deploys)
 
 This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
