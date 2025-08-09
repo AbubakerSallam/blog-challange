@@ -47,8 +47,8 @@ onMounted(() => {
           class="backdrop-shadow-3xl w-full sm:translate-x-1/4"
           :src="
             isSmallScreen
-              ? '../../public/images/illustration-editor-desktop.svg'
-              : '../../public/images/illustration-editor-mobile.svg'
+              ? '/images/illustration-editor-desktop.svg'
+              : '/images/illustration-editor-mobile.svg'
           "
           alt=""
         />
