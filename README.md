@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1289" height="2836" alt="image" src="https://github.com/user-attachments/assets/0039be3b-30b5-427b-b580-bf7ad6f6d995" />
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -41,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/AbubakerSallam/blog-challange)
+- Live Site URL: [Live]([https://your-live-site-url.com](https://blog-challange.netlify.app/))
 
 ## My process
 
@@ -53,34 +54,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
+- [Tailwindcss](https://tailwindcss.com/) - JS library
+- [Vue.js](https://vuejs.org/) - React framework 
+ 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
@@ -92,22 +68,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+ 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://abubakersallam.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/AbubakerSallam)
-- Twitter - [@yourusername](https://www.twitter.com/abubakersalla_m)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [AbubakerSallam](https://abubakersallam.netlify.app/)
+- Frontend Mentor - [@Abubakersallam](https://www.frontendmentor.io/profile/AbubakerSallam)
+- Twitter - [@abubakersalla_m](https://www.twitter.com/abubakersalla_m)
