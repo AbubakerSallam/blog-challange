@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules
 .DS_Store
 blogr-starter
-dist
+
 dist-ssr
 coverage
 *.local
