@@ -15,7 +15,7 @@ onMounted(() => {
   <section class="flex flex-col sm:flex-row w-full">
     <div class="w-1/2 flex items-center mx-auto">
       <img
-        class="animate-fade-in-scale backdrop-shadow-3xl w-full sm:-translate-x-42 sm:-translate-y-1/4"
+        class="animate-fade-in-scale scale-150 sm:mt-16 mb-16 backdrop-shadow-3xl w-full sm:-translate-x-42 sm:-translate-y-1/4"
         :src="
           isSmallScreen
             ? '/src/assets/images/illustration-laptop-desktop.svg'
