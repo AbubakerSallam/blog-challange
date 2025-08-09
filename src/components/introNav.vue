@@ -1,6 +1,6 @@
 <script setup>
-import menueicon from '/icons/menue.svg'
-import closemenue from '/icons/closemenue.svg'
+import menueicon from '../assets/icons/menue.svg'
+import closemenue from '../assets/icons/closemenue.svg'
 import { ref, onMounted } from 'vue'
 
 const navopend = ref('')
@@ -35,7 +35,7 @@ const opennav = (index) => {
     ></div>
 
     <nav class="animate-fade-in-scale flex relative mx-4 sm:mx-18 my-8 justify-between">
-      <img class="animate-fade-in-scale pr-12 h-full" src="/images/logo.svg" alt="" />
+      <img class="animate-fade-in-scale pr-12 h-full" src="../assets/images/logo.svg" alt="" />
       <!-- <h1 class="text-white text-3xl font-bold inline pr-12">Bloger</h1> -->
       <div
         :class="{
@@ -57,7 +57,9 @@ const opennav = (index) => {
                 :class="`${item.navName}` === navopend ? 'rotate-180' : ''"
                 class="inline w-4 font-semibold pl-1 duration-300 transition-all"
                 :src="
-                  isSmallScreen ? '/images/icon-arrow-light.svg' : '/images/icon-arrow-dark.svg'
+                  isSmallScreen
+                    ? '/src/assets/images/icon-arrow-light.svg'
+                    : '/src/assets/images/icon-arrow-dark.svg'
                 "
                 alt="Arrow Icon"
               />
