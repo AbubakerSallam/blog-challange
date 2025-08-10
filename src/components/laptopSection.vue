@@ -18,8 +18,8 @@ onMounted(() => {
         class="animate-fade-in-scale scale-150 sm:mt-16 mb-16 backdrop-shadow-3xl w-full sm:-translate-x-42 sm:-translate-y-1/4"
         :src="
           isSmallScreen
-            ? '/src/assets/images/illustration-laptop-desktop.svg'
-            : '/src/assets/images/illustration-laptop-mobile.svg '
+            ? 'assets/images/illustration-laptop-desktop.svg'
+            : 'assets/images/illustration-laptop-mobile.svg '
         "
       />
     </div>
