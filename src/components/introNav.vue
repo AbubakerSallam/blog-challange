@@ -1,6 +1,7 @@
 <script setup>
-import menueicon from '../assets/icons/menue.svg'
-import closemenue from '../assets/icons/closemenue.svg'
+import menueicon from '@/assets/icons/menue.svg'
+import closemenue from '@/assets/icons/closemenue.svg'
+import logo from '@/assets/images/logo.svg'
 import { ref, onMounted } from 'vue'
 
 const navopend = ref('')
@@ -31,11 +32,11 @@ const opennav = (index) => {
     class="flex text-white flex-col h-96 pb-[430px] sm:h2/3 rounded-bl-[64px] bg-gradient-to-r from-orange-300 to-red-550 relative sm:overflow-hidden"
   >
     <div
-      class="absolute animate-main-header top-0 w-screen h-full bg-[url('/images/bg-pattern-intro-mobile.svg')] sm:bg-[url('/images/bg-pattern-intro-desktop.svg')] bg-no-repeat bg-[26%_center] z-0"
+      class="absolute animate-main-header top-0 w-screen h-full bg-[url('/assets/images/bg-pattern-intro-mobile.svg')] sm:bg-[url('/assets/images/bg-pattern-intro-desktop.svg')] bg-no-repeat bg-[26%_center] z-0"
     ></div>
 
     <nav class="animate-fade-in-scale flex relative mx-4 sm:mx-18 my-8 justify-between">
-      <img class="animate-fade-in-scale pr-12 h-full" src="../assets/images/logo.svg" alt="" />
+      <img class="animate-fade-in-scale pr-12 h-full" src="/assets/images/logo.svg" alt="" />
       <!-- <h1 class="text-white text-3xl font-bold inline pr-12">Bloger</h1> -->
       <div
         :class="{
@@ -58,8 +59,8 @@ const opennav = (index) => {
                 class="inline w-4 font-semibold pl-1 duration-300 transition-all"
                 :src="
                   isSmallScreen
-                    ? '/src/assets/images/icon-arrow-light.svg'
-                    : '/src/assets/images/icon-arrow-dark.svg'
+                    ? '/assets/images/icon-arrow-light.svg'
+                    : '/assets/images/icon-arrow-dark.svg'
                 "
                 alt="Arrow Icon"
               />

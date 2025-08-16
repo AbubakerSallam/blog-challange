@@ -3,7 +3,7 @@
     <div
       class="animate-main-header flex flex-col text-center items-center sm:items-start my-auto justify-evenly content-center sm:flex-row sm:pt-10 pt-14 sm:pb-0 pb-14"
     >
-      <img class="animate-main-secondry mb-8" src="../assets/images/logo.svg" alt="" />
+      <img class="animate-main-secondry mb-8" src="/assets/images/logo.svg" alt="" />
       <ul class="text-white mb-8">
         <h1 class="font-bold mb-3">Product</h1>
         <li class="text-sm">Overview</li>

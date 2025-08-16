@@ -9,7 +9,7 @@
         <div class="absolute w-screen inset-0 overflow-hidden">
           <img
             class="animate-main-header -left-1/5 -top-[500px] absolute"
-            src="../assets/images/bg-pattern-circles.svg"
+            src="/assets/images/bg-pattern-circles.svg"
             alt=""
           />
         </div>
@@ -18,7 +18,7 @@
         <div class="relative w-full h-full z-10">
           <img
             class="absolute left-1/2 scale-150 sm:scale-100 sm:left-20 -top-20 animate-main-secondry"
-            src="../assets/images/illustration-phones.svg"
+            src="/assets/images/illustration-phones.svg"
             alt=""
           />
         </div>
